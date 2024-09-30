@@ -22,6 +22,12 @@ img{
     max-width: 100%;
 }
 
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 /*LAYOUT*/
 
 .container-12{
@@ -35,6 +41,7 @@ img{
 
 .col-12{
     width: 100%;
+    padding: 0 1.5rem;
 }
 
 /*HEADER*/
@@ -51,4 +58,52 @@ img{
     color:#FF9614;
     text-transform: uppercase;
     font-size: 3rem;
+}
+
+/*MAIN*/
+
+main{
+    background-color: #F6F5F3;
+}
+
+.hero{
+    padding-top: 1rem;
+}
+
+.hero p{
+    text-transform: uppercase;
+    color: #b19999a6;
+    padding-bottom: 0.5rem;
+}
+
+.hero h2{
+    color: #4E3969;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero .hide{
+    display: none;
+}
+
+.hero .card {
+    background-color: white;
+    box-shadow: 0 1rem 1rem 0 #E3E1E2;
+}
+
+.hero h3{
+    padding: 1rem 2rem;
+}
+
+.hero ul{
+    padding-bottom: 2.5rem;
+    padding-left: 2rem;
+}
+
+.hero ul > *{
+    padding: 0.5rem 0;
+}
+
+.hero span{
+    font-weight: bold;
 }
