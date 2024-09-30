@@ -48,6 +48,18 @@
         display: block;
     }
 
+    /*CONTENT*/
+
+    .main-content{
+        margin-top: 1.5rem;
+    }
+
+    .main-content-img img{
+        width: 40%;
+        float: left;
+        padding-right: 1rem;
+    }
+
 
 }
 
