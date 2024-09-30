@@ -66,6 +66,8 @@ main{
     background-color: #F6F5F3;
 }
 
+/*HERO*/
+
 .hero{
     padding-top: 1rem;
 }
@@ -104,6 +106,51 @@ main{
     padding: 0.5rem 0;
 }
 
-.hero span{
+.hero .bold{
     font-weight: bold;
+}
+
+
+.hero .social-link{
+    margin: 30px 0;
+}
+
+.hero .social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .social > *{
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 999px;
+}
+
+/*HERO ICON RE-COLOR*/
+.fa-facebook{
+    color: #1A77F3;
+}
+
+.fa-twitter{
+    color: #009EFF
+}
+
+.fa-instagram{
+    color: #DC3DA3
+}
+
+.fa-pinterest, .fa-youtube{
+    color: #E62222
+}
+
+.hero .social-text{
+    display: none;
+    padding-left: 10px;
+    font-size: 0.7rem;
+    color: black;
+}
+
+.hero .banner{
+    display: none;
 }
