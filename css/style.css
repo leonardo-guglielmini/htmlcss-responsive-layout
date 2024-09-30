@@ -24,7 +24,6 @@ img{
 
 html{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-size: 1rem;
 }
@@ -120,16 +119,18 @@ main{
 }
 
 .hero .social-link{
-    margin: 30px 0;
+    margin: 30px auto;
 }
 
 .hero .social{
     display: flex;
     justify-content: space-between;
+    
 }
 
-.hero .social > *{
-    padding: 0.5rem 1rem;
+.hero .social > a{
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
     background-color: white;
     border: 0.5rem solid transparent;
     border-radius: 999px;
