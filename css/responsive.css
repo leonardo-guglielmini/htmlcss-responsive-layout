@@ -68,7 +68,7 @@
     /*HERO*/
     
     main .col-12{
-        padding: 0 6rem;
+        padding: 0 15rem;
     }
     .hero .card{
         display: flex;
@@ -94,5 +94,24 @@
         max-width: 100%;
     }
     
+
+    /*FOOTER*/
+
+    .footbar .row{
+        justify-content: space-between;
+    }
+
+    .footbar .col-12{
+        max-width: 50%;
+    }
+
+    .footbar .col-12:first-child > *{
+        text-align: left;
+    }
+
+    .footbar .col-12:last-child > *{
+        text-align: right;
+    }
+
 
 }

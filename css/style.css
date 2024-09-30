@@ -26,6 +26,7 @@ html{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 1rem;
 }
 
 /*LAYOUT*/
@@ -39,10 +40,16 @@ html{
     display: flex;
 }
 
+.main-content .row, .footbar .row{
+    flex-wrap: wrap;
+}
+
 .col-12{
     width: 100%;
     padding: 0 1.5rem;
 }
+
+
 
 /*TEXT FORMATTING*/
 
@@ -122,9 +129,9 @@ main{
 }
 
 .hero .social > *{
-    padding: 10px 15px;
+    padding: 1rem 0.5rem;
     background-color: white;
-    border: 1px solid transparent;
+    border: 0.5rem solid transparent;
     border-radius: 999px;
 }
 
@@ -158,26 +165,27 @@ main{
 
 /*CONTENT*/
 
+
+.main-content{
+    padding-bottom: 3rem;
+}
+
 .main-content h2{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 2rem;
 }
 
-.main-content .row{
-    flex-wrap: wrap;
-}
-
 .main-content-img img{
     display: block;
-    width:70%;
+    max-width:70%;
     margin: 0 auto;
 }
 
 .hr-line{
     display: block;
     border: 1px solid #F7972E;
-    width: 15%;
+    max-width: 15%;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -185,4 +193,24 @@ main{
 .main-content p{
     font-size: 1.1rem;
     line-height: 2.5rem;
+}
+
+
+/*FOOTER*/
+
+.footbar{
+    background-color: #7C69A4;
+    color: white;
+    padding: 1rem 0;
+}
+
+.footbar .col-12 > *{
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.footbar .col-12 ul > li{
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    text-decoration: underline;
 }
