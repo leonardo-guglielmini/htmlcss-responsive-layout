@@ -41,7 +41,7 @@
     }
 
     .hero .social > *{
-        padding: 0.5rem 4rem;
+        padding: 0.5rem 2rem;
     }
 
     .hero .banner{
@@ -74,16 +74,12 @@
         display: flex;
     }
 
-    .hero img{
+    /* .hero img{
         max-width: 65%;
-    }
+    } */
 
     .hero .card ul{
         display: block;
-    }
-
-    .hero .social > *{
-        padding: 0.5rem 2rem;
     }
 
     .hero .social-text{
@@ -113,5 +109,9 @@
         text-align: right;
     }
 
-
+    .hero iframe{
+        max-width: 65%;
+        height: auto;
+        aspect-ratio: 1.8;
+    }
 }

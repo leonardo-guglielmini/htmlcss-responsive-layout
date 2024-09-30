@@ -129,7 +129,7 @@ main{
 }
 
 .hero .social > *{
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: white;
     border: 0.5rem solid transparent;
     border-radius: 999px;
@@ -213,4 +213,13 @@ main{
     display: inline-block;
     padding: 0.5rem 0.5rem;
     text-decoration: underline;
+}
+
+
+/*YOUTUBE EMBED TEST*/
+
+.hero iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.8;
 }
